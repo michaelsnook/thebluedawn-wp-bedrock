@@ -2,8 +2,16 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #525ddc
+  primary: #293975,
+  secondary: #80bd63,
+  blue: #293975,
+  green: #80bd63,
+  success: #80bd63
 );
+
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab");
+$font-family-sans-serif: Roboto, Helvetica, sans-serif;
+$font-family-headings: "Roboto Slab", serif;
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
