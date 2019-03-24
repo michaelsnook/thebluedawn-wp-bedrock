@@ -32,3 +32,14 @@ A wordpress site and theme built on Roots.io's Bedrock and Sage.
 5. Set the document root on your webserver to Bedrock's `web` folder: `/path/to/site/web/`
   * For local development, you can cd into the `web` folder and use the built-in PHP development server: `php -S localhost:8000`
 6. Access WordPress admin at `https://example.com/wp/wp-admin/`
+
+## Post-install Setup
+
+1. To create a footer like this: 
+  <img src="./docs/wp-widget-footer-setup-result.png" style="max-width: 600px;">
+  You just set up the Footer under [Appearance > Widgets](http://localhost:8000/wp/wp-admin/widgets.php). It should look like this: 
+  <img src="./docs/wp-widget-footer-setup-admin.png" style="max-width: 600px;">
+
+## Direction
+
+1. Trying to largely copy the flow and organisation of this website http://www.savelifeindia.org/ and this one http://www.bloodconnect.org/ 

@@ -1,0 +1,11 @@
+footer .widget {
+  @extend .col-sm;
+
+  ul {
+    @extend .list-unstyled;
+
+    a {
+      @extend .text-light;
+    }
+  }
+}
