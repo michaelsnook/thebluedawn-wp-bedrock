@@ -1,5 +1,4 @@
 <h6 class="text-muted">
-  <span>on</span>
   <time class="updated" datetime="{{ get_post_time('c', true) }}">{{ get_the_date() }}</time>
   <span class="byline author vcard">
     {{ __('by', 'sage') }}
