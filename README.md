@@ -34,10 +34,12 @@ A wordpress site and theme built on Roots.io's Bedrock and Sage.
 6. Access WordPress admin at `https://example.com/wp/wp-admin/`
 
 ## Post-install Setup
-
-1. To create a footer like this: 
+1. Create 4 pages, for Seek Counseling, Counselors Network, Sponsor Sessions, Volunteer. Embed Google Forms on those pages.
+1. Go to `Appearance > Menus` and create the primary menu. Populate it with: Blog, Seek Counseling, Counselors Network, Sponsor Sessions, Volunteer.
+1. Create another menu, the Social Media Menu, with links to Facebook, Twitter, Instagram, Medium, other properties.
+1. Create a footer in `Appearance > Widgets`, like this: 
   <img src="./docs/wp-widget-footer-setup-result.png" style="max-width: 600px;">
-  You just set up the Footer under [Appearance > Widgets](http://localhost:8000/wp/wp-admin/widgets.php). It should look like this: 
+  It should look like this: 
   <img src="./docs/wp-widget-footer-setup-admin.png" style="max-width: 600px;">
 
 ## Direction
