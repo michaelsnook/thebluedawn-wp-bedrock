@@ -1,4 +1,22 @@
-.jumbotron {
-  border-radius: 0;
+.Header {
+  background: url(/app/themes/thebluedawn/dist/images/thebluedawn-banner.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .Jumbotron {
+    background-color: rgba(theme-color("primary"), 0.8);
+
+    @extend .text-light, .mb-0, .jumbotron;
+
+    .Button-1 {
+      @extend .btn, .btn-light, .btn-lg, .mb-2;
+    }
+
+    .Button-2 {
+      @extend .btn, .btn-outline-light, .btn-lg, .mb-2;
+    }
+  }
 }
 
