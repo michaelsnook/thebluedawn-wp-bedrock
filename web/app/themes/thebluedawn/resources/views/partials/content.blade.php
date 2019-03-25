@@ -1,6 +1,6 @@
-<article @php post_class() @endphp>
+<article @php post_class("text-muted pt-3 border-bottom border-gray") @endphp>
   <header>
-    <h2 class="entry-title"><a href="{{ get_permalink() }}">{!! get_the_title() !!}</a></h2>
+    <h4 class="entry-title"><a href="{{ get_permalink() }}">{!! get_the_title() !!}</a></h4>
     @include('partials/entry-meta')
   </header>
   <div class="entry-summary">
