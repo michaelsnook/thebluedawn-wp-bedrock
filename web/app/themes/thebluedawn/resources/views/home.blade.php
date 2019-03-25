@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="album py-5 bg-light">
+<section class="py-5">
   <div class="container">
   <h1>What We Do</h1>
     <div class="row">
@@ -65,24 +65,25 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="wrap container py-5">
-  <div class="content">
-  @include('partials.page-header')
+<section class="py-5">
+  <div class="container p-5 bg-white rounded shadow-sm">
+    <h2 class="border-bottom border-gray pb-2 mb-0">{!! App::title() !!}</h2>
 
-  @if (!have_posts())
+    @if (!have_posts())
     <div class="alert alert-warning">
       {{ __('Sorry, no results were found.', 'sage') }}
     </div>
-  @endif
+    @endif
 
-  @while (have_posts()) @php the_post() @endphp
-    @include('partials.content-'.get_post_type())
-  @endwhile
+    @while (have_posts()) @php the_post() @endphp
+      @include('partials.content-'.get_post_type())
+    @endwhile
 
-  {!! get_the_posts_navigation() !!}
+    {!! get_the_posts_navigation() !!}
+
   </div>
-</div>
+</section>
 
 @endsection
