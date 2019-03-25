@@ -33,6 +33,25 @@
       <a class="Button-2" href="#" role="button">Sponsor Counseling</a>
     </div>
   </div>
-@endif
+@elseif ( is_page() && has_post_thumbnail() )
+  <div class="Jumbotron">
+    <div class="container p-5">
+      <h1 class="display-4">{!! get_the_title() !!}</h1>
+      <h6 class="text-white">
+        {!! get_the_excerpt() !!}
+      </h6>
+    </div>
+  </div>
 
+  <style>
+  .Header {
+    background: url("{!! the_post_thumbnail_url() !!}") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  </style>
+
+@endif
 </header>

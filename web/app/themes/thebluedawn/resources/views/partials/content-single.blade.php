@@ -3,7 +3,7 @@
     <h1 class="entry-title">{!! get_the_title() !!}</h1>
     @include('partials/entry-meta')
   </header>
-  <div class="img-fluid pb-3">
+  <div class="pb-3">
     <a href="{{ get_permalink() }}">
       {!! the_post_thumbnail('large', ['class' => 'rounded img-fluid']) !!}
     </a>
