@@ -21,8 +21,9 @@
 @if ( is_front_page() )
   <div class="Jumbotron">
     <div class="container p-5">
-      <h1 class="display-4">Welcome to The Blue Dawn</h1>
-      <p class="lead">
+      <h1 class="display-4 d-none d-md-block">Welcome to The Blue Dawn</h1>
+      <h1 class="d-md-none">Welcome to The Blue Dawn</h1>
+      <p class="lead d-none d-md-block">
         Blue Dawn is a community initiative/support group working by values of community healing and a facilitator of accessible mental health services to Bahujans.
       </p>
       <p>
