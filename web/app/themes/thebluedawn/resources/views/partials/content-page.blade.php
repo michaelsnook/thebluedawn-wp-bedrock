@@ -1,4 +1,4 @@
-@unless ( is_page() && has_post_thumbnail() )
+@unless ( has_post_thumbnail() )
 <div class="img-fluid pb-3">
   <a href="{{ get_permalink() }}">
     {!! the_post_thumbnail('large', ['class' => 'rounded img-fluid']) !!}

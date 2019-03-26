@@ -18,5 +18,16 @@
       @extend .btn, .btn-outline-light, .btn-lg, .mb-2;
     }
   }
+
+  .Jumbotron-2 {
+    padding-bottom: 0;
+    background-color: rgba(#fff, 0);
+
+    @extend .text-light, .mb-0, .jumbotron;
+
+    .container {
+      background-color: rgba(theme-color("primary"), 0.8);
+    }
+  }
 }
 

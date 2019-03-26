@@ -1,4 +1,22 @@
-@extends('layouts.nowrap')
+@extends('layouts.banner')
+
+@section('banner')
+<div class="Jumbotron">
+  <div class="container px-0 py-3 px-md-3 p-lg-5">
+    <h1 class="display-4 d-none d-md-block">Welcome to The Blue Dawn</h1>
+    <h1 class="d-md-none">Welcome to The Blue Dawn</h1>
+    <p class="lead d-none d-md-block">
+      Blue Dawn is a community initiative/support group working by values of community healing and a facilitator of accessible mental health services to Bahujans.
+    </p>
+    <p>
+      We connect Bahujan people in need of mental health counseling with counselors who understand the intersection
+      of mental health and caste/minority issues, and with sponsors who can help make mental health counseling accessible to our community.
+    </p>
+    <a class="Button-1" href="#" role="button">Seek Counseling</a>
+    <a class="Button-2" href="#" role="button">Sponsor Counseling</a>
+  </div>
+</div>
+@endsection
 
 @section('content')
 
