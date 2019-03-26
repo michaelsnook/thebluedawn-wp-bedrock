@@ -20,7 +20,7 @@
 
 @if ( is_front_page() )
   <div class="Jumbotron">
-    <div class="container p-5">
+    <div class="container px-0 py-3 px-md-3 p-lg-5">
       <h1 class="display-4 d-none d-md-block">Welcome to The Blue Dawn</h1>
       <h1 class="d-md-none">Welcome to The Blue Dawn</h1>
       <p class="lead d-none d-md-block">
@@ -36,8 +36,9 @@
   </div>
 @elseif ( is_page() && has_post_thumbnail() )
   <div class="Jumbotron">
-    <div class="container p-5">
-      <h1 class="display-4">{!! get_the_title() !!}</h1>
+    <div class="container px-0 py-3 px-md-3 p-lg-5">
+    <h1 class="display-4 d-none d-md-block">{!! get_the_title() !!}</h1>
+    <h1 class="d-md-none">Welcome to The Blue Dawn</h1>
       <h6 class="text-white">
         {!! get_the_excerpt() !!}
       </h6>
