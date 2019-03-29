@@ -20,6 +20,15 @@
 
 @section('content')
 
+<section class="p-5">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.youtube.com/embed/niatQ2aYNOk"
+      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+      class="embed-responsive-item" allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
 <section class="py-5">
   <div class="container">
   <h1>What We Do</h1>
