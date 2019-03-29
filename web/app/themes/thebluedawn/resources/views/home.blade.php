@@ -36,7 +36,9 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-            <title>Matching patients with counselors</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="10%" y="50%" fill="#eceeef" dy=".3em">Matching patients with counselors</text>
+            <title>Matching patients with counselors</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="10%" y="50%" fill="#eceeef" dy=".3em">Matching patients with counselors</text>
           </svg>
           <div class="card-body">
             <p class="card-text">
@@ -55,7 +57,9 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-            <title>A network of Bahujan-friendly counselors</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="10%" y="50%" fill="#eceeef" dy=".3em">A network of Bahujan-friendly counselors</text>
+            <title>A network of Bahujan-friendly counselors</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="10%" y="50%" fill="#eceeef" dy=".3em">A network of Bahujan-friendly counselors</text>
           </svg>
           <div class="card-body">
             <p class="card-text">
@@ -73,7 +77,9 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Sponsors for patients in need</title><rect width="100%" height="100%" fill="#55595c"></rect>
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+            <title>Sponsors for patients in need</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
             <text x="10%" y="50%" fill="#eceeef" dy=".3em">Sponsors for patients in need</text>
           </svg>
           <div class="card-body">
