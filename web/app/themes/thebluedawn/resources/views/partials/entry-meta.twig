@@ -1,6 +1,6 @@
 <h6 class="text-muted">
   <a href="{{ post.link }}">
-    <time class="updated" datetime="{{ post.time('c') }}">{{ post.date }}</time>
+    <time class="updated" datetime="{{ post.time('c') }}">{{ post.post_date_gmt|time_ago }}</time>
   </a>
   <span class="byline author vcard">
     {{ __('by', 'sage') }}
