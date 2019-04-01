@@ -40,6 +40,7 @@
     "roots/wordpress": "5.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/timber-library": "^1.9",
     "wpackagist-plugin/safe-redirect-manager": "^1.9"
   },
   "require-dev": {
@@ -48,7 +49,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "wpackagist-plugin/timber"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "wpackagist-plugin/timber-library"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
