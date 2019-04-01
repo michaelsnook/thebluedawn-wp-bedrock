@@ -1,0 +1,11 @@
+<h6 class="text-muted">
+  <a href="{{ post.link }}">
+    <time class="updated" datetime="{{ post.time('c') }}">{{ post.date }}</time>
+  </a>
+  <span class="byline author vcard">
+    {{ __('by', 'sage') }}
+    <a href="{{ post.author.link }}" rel="author" class="fn">
+      {{ post.author.name }}
+    </a>
+  </span>
+</h6>
