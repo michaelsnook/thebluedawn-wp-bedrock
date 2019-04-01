@@ -20,13 +20,22 @@
   }
 
   .Jumbotron-2 {
-    padding-bottom: 0;
-    background-color: rgba(#fff, 0);
+    @extend .text-light, .mb-0, .jumbotron, .pb-0;
 
-    @extend .text-light, .mb-0, .jumbotron;
+    &.has_thumbnail {
+      background-color: rgba(#fff, 0);
 
-    .container {
-      background-color: rgba(theme-color("primary"), 0.8);
+      .container {
+        background-color: rgba(theme-color("primary"), 0.8);
+      }
+    }
+
+    &.no_thumbnail {
+      background-color: rgba(theme-color("primary"), 0.5);
+
+      .container {
+        background-color: rgba(theme-color("primary"), 1);
+      }
     }
   }
 }
