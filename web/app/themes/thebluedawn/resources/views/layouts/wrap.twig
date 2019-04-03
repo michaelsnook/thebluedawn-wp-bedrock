@@ -1,0 +1,41 @@
+{% extends 'layouts/base.twig' %}
+
+{% block banner %}
+<div class="Jumbotron-2 {{ post.image? 'has_thumbnail' : 'no_thumbnail' }}">
+  <div class="container px-3 px-sm-4 px-md-5 pt-5 pb-4 rounded-top">
+  <h1 class="display-4 d-none d-md-block">{{ post.title }}</h1>
+  <h1 class="d-md-none">{{ post.title }}</h1>
+  {% block banner_inner %}
+  <p class="text-white">
+    {{ post.preview.read_more('') }}
+  </p>
+  {% endblock banner_inner %}
+  </div>
+</div>
+<style>
+  .Header {
+    background: url("{{ post.thumbnail.src }}") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+</style>
+{% endblock banner %}
+
+{% block content %}
+<div class="wrap container px-3 px-sm-4 px-md-5 py-5 bg-white rounded shadow-sm mb-5" role="document">
+  <div class="content">
+    <main class="main post-type-{{post.post_type}}" id="post-{{post.ID}}">
+      {% block content_inner %}
+        {{ post.content }}
+      {% endblock content_inner %}
+    </main>
+    {% if sidebar %}
+      <aside class="sidebar">
+        {{ sidebar }}
+      </aside>
+    {% endif %}
+  </div>
+</div>
+{% endblock content %}

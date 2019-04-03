@@ -104,17 +104,7 @@
     <div class="container p-5 bg-white rounded shadow-sm">
       <h2 class="border-bottom border-gray pb-2 mb-0">Latest Posts</h2>
 
-      {% if not posts %}
-      <div class="alert alert-warning">
-        {{ __('Sorry, no results were found.', 'sage') }}
-      </div>
-      {% endif %}
-
-      {% for post in posts %}
-        {% include ['partials/tease-'~post.post_type~'.twig', 'partials/tease.twig'] %}
-      {% endfor %}
-
-      {% include 'partials/pagination.twig' with { pagination: posts.pagination({show_all: false, mid_size: 3, end_size: 2}) } %}
+      {% include 'partials/post-list.twig' %}
 
     </div>
   </section>
