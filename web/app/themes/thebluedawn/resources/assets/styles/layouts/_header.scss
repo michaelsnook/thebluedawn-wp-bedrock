@@ -5,6 +5,14 @@
   -o-background-size: cover;
   background-size: cover;
 
+  .Navbar-brand {
+    @extend .h3;
+
+    .logo-semicolon {
+      width: 2rem;
+    }
+  }
+
   .Jumbotron {
     background-color: rgba(theme-color("primary"), 0.8);
 
