@@ -1,7 +1,7 @@
 {% extends 'layouts/base.twig' %}
 
 {% block banner %}
-<div class="Jumbotron-2 {{ post.image? 'has_thumbnail' : 'no_thumbnail' }}">
+<div class="Jumbotron-2 {{ (post.thumbnail)? 'has_thumbnail' : 'no_thumbnail' }}">
   <div class="container px-3 px-sm-4 px-md-5 pt-5 pb-4 rounded-top">
   <h1 class="display-4 d-none d-md-block">{{ post.title }}</h1>
   <h1 class="d-md-none">{{ post.title }}</h1>

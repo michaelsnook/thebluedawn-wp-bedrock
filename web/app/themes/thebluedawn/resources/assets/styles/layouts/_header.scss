@@ -31,10 +31,10 @@
     @extend .text-light, .mb-0, .jumbotron, .pb-0;
 
     &.has_thumbnail {
-      background-color: rgba(#fff, 0);
+      background-color: transparent;
 
       .container {
-        background-color: rgba(theme-color("primary"), 0.8);
+        background-color: rgba(theme-color("primary"), 0.85);
       }
     }
 
