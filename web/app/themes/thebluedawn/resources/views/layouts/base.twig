@@ -14,6 +14,9 @@
 
   {{ function('wp_head') }}
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
   {% block head %}
 	{% endblock %}
 
@@ -48,6 +51,38 @@
       <div class="row">
 
         {{ footer_menu }}
+
+        <section class="widget nav_menu-2 widget_nav_menu">
+          <h3>Follow Us</h3>
+          <div class="menu-social-media-menu-container">
+            <ul id="menu-social-media-menu" class="menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23">
+                <a href="https://twitter.com/thebluedawn56">
+                  <i class="fab fa-twitter"></i>
+                  Twitter
+                </a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24">
+                <a href="https://www.instagram.com/thebluedawn56/">
+                  <i class="fab fa-instagram"></i>
+                  Instagram
+                </a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22">
+                <a href="https://www.facebook.com/thebluedawn56/">
+                  <i class="fab fa-facebook"></i>
+                  Facebook
+                </a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25">
+                <a href="http://https://medium.com/@thebluedawnwrites/">
+                  <i class="fab fa-medium"></i>
+                  Medium
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
 
         <div class="col">
           <img src="/app/themes/thebluedawn/dist/images/logo-inverted.png" class="img-fluid">
