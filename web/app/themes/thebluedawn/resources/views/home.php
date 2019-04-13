@@ -10,8 +10,7 @@
  */
 
 $context = Timber::context();
-
-$context['posts'] = new Timber\PostQuery();
+$context['events'] = new Timber\PostQuery(array('category_name' => 'events'));
 $context['pagination'] = Timber::get_pagination();
 
 $templates = array( 'index.twig' );
