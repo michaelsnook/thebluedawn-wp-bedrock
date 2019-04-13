@@ -11,10 +11,9 @@
 
 $context = Timber::context();
 $context['events'] = new Timber\PostQuery(array('category_name' => 'events'));
+$context['testimonials'] = new Timber\PostQuery(array('category_name' => 'testimonials'));
+$context['press'] = new Timber\PostQuery(array('category_name' => 'media'));
+
 $context['pagination'] = Timber::get_pagination();
 
-$templates = array( 'index.twig' );
-if ( is_home() ) {
-	array_unshift( $templates, 'front-page.twig', 'home.twig' );
-}
-Timber::render( $templates, $context );
+Timber::render( 'home.twig', $context );
