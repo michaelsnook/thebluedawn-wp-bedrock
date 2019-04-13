@@ -1,6 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
+    <a class="Navbar-brand" href="{{ home_url('/') }}">
+      {{ get_bloginfo('name', 'display') }}
+      <img src="/app/themes/thebluedawn/dist/images/logo-semicolon-only.png" class="logo-semicolon">
+    </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
