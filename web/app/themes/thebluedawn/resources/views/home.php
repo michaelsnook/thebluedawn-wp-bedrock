@@ -10,9 +10,23 @@
  */
 
 $context = Timber::context();
-$context['events'] = new Timber\PostQuery(array('category_name' => 'events'));
-$context['testimonials'] = new Timber\PostQuery(array('category_name' => 'testimonials'));
-$context['press'] = new Timber\PostQuery(array('category_name' => 'media'));
+
+$context['events'] = new Timber\PostQuery(array(
+  'category_name' => 'events'
+));
+
+$context['testimonials'] = new Timber\PostQuery(array(
+  'category_name' => 'testimonials'
+));
+
+$context['press'] = new Timber\PostQuery(array(
+  'category_name' => 'media'
+));
+
+$whatwedo = new Timber\PostQuery(array( 'name' => 'what-we-do' ))[0];
+$context['whatwedo_pages'] = new Timber\PostQuery(array(
+  'post_parent' => $whatwedo->ID;
+));
 
 $context['pagination'] = Timber::get_pagination();
 
