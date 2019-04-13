@@ -1,0 +1,21 @@
+.Card {
+  @extend .card, .mb-4, .shadow-sm;
+
+  &-img-top {
+    @extend .card-img-top, .d-flex, .align-items-center;
+
+    background-color: #686868;
+    height: 225px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    p {
+      @extend .text-white, .text-center, .mx-auto, .p-2;
+
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

@@ -23,10 +23,8 @@ $context['press'] = new Timber\PostQuery(array(
   'category_name' => 'media'
 ));
 
-$whatwedo = new Timber\PostQuery(array( 'name' => 'what-we-do' ))[0];
-$context['whatwedo_pages'] = new Timber\PostQuery(array(
-  'post_parent' => $whatwedo->ID;
-));
+// $whatwedo = new Timber\Post(array( 'pagename' => 'what-we-do' ));
+// $context['whatwedo_pages'] = $whatwedo->children;
 
 $context['pagination'] = Timber::get_pagination();
 

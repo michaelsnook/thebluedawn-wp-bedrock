@@ -31,79 +31,55 @@
   </section>
 
   <section class="py-5">
-
-    <h1>What We Do</h1>
-    <div class="row">
-      {% for post in whatwedo_pages %}
-        {% set item = Post(post) %}
-        {% include 'partials/post-card.twig' %}
-      {% endfor %}
-    </div>
-
-  </section>
-
-  <section class="py-5">
     <h1>What We Do</h1>
     <div class="row">
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-            <title>Matching patients with counselors</title>
-            <rect width="100%" height="100%" fill="#55595c"></rect>
-            <text x="10%" y="50%" fill="#eceeef" dy=".3em">Matching patients with counselors</text>
-          </svg>
+        <div class="Card">
+          <div class="Card-img-top" style="background: url('http://thebluedawn.org/app/uploads/2019/04/IMG1_page-0001.jpg') no-repeat center center;">
+            <p>Matching clients with counselors</p>
+          </div>
           <div class="card-body">
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              Blue Dawn facilitates anti-caste, queer-friendly, disabled-friendly mental health care services to Bahujans. If you are a Bahujan and seeking support, please fill the Google Form to get in touch with us.
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                <a href="/speak-to-a-counselor/" class="btn btn-sm btn-outline-secondary text-secondary">Get started</a>
               </div>
-              <small class="text-muted">9 mins</small>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-            <title>A network of Bahujan-friendly counselors</title>
-            <rect width="100%" height="100%" fill="#55595c"></rect>
-            <text x="10%" y="50%" fill="#eceeef" dy=".3em">A network of Bahujan-friendly counselors</text>
-          </svg>
+        <div class="Card">
+          <div class="Card-img-top" style="background: url('http://thebluedawn.org/app/uploads/2019/04/IMG_page-0001.jpg') no-repeat center center;">
+            <p class="text-white">Network of Bahujan-friendly counselors</p>
+          </div>
           <div class="card-body">
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              If you are a counselor or psychiatrist who understands structural oppression, especially caste oppression, and are ready to offer pro bono or affordable services, please fill the Google Form to get in touch with us.
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                <a href="/counselors-network/" class="btn btn-sm btn-outline-secondary text-secondary">Get involved</a>
               </div>
-              <small class="text-muted">9 mins</small>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-            <title>Sponsors for patients in need</title>
-            <rect width="100%" height="100%" fill="#55595c"></rect>
-            <text x="10%" y="50%" fill="#eceeef" dy=".3em">Sponsors for patients in need</text>
-          </svg>
+        <div class="Card">
+          <div class="Card-img-top" style="background: url('http://thebluedawn.org/app/uploads/2019/04/IMG_0001_page-0001.jpg') no-repeat center center;">
+            <p class="text-white">Sponsor clients in need</p>
+          </div>
           <div class="card-body">
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              If you are neither a counselor nor a patient but want to make mental health care accessible to all, you can sponsor therapy sessions for clients in need. Please fill the Google Form to get in touch with us.
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                <a class="btn btn-sm btn-outline-secondary text-secondary">Get in touch</a>
               </div>
-              <small class="text-muted">9 mins</small>
             </div>
           </div>
         </div>
