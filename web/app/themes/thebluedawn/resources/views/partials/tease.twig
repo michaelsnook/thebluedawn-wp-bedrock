@@ -4,11 +4,11 @@
     {% if post.get_thumbnail %}
     <div class="col-md-3 col-sm-5 col-12 pb-3">
       <a href="{{ post.link }}">
-        <img class="rounded img-fluid" src="{{post.thumbnail.src}}" />
+        <img class="rounded img-fluid" src="{{ post.thumbnail.src }}" alt="{{ post.thumbnail.alt }}">
       </a>
     </div>
     {% endif %}
-    <div class="col">    
+    <div class="col">
       <header>
         {% include 'partials/entry-meta.twig' %}
       </header>
@@ -16,6 +16,5 @@
         {{ post.preview }}
       </div>
     </div>
-    
   </div>
 </article>

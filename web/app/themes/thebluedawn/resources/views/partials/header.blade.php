@@ -2,7 +2,7 @@
   <div class="container">
     <a class="Navbar-brand" href="{{ home_url('/') }}">
       {{ get_bloginfo('name', 'display') }}
-      <img src="/app/themes/thebluedawn/dist/images/logo-semicolon-only.png" class="logo-semicolon">
+      <img alt="The Blue Dawn logo" src="/app/themes/thebluedawn/dist/images/logo-semicolon-only.png" class="logo-semicolon">
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
