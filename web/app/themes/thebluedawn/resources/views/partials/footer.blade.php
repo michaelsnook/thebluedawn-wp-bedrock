@@ -34,7 +34,7 @@
         </div>
       </section>
       <div class="col">
-        <img src="/app/themes/thebluedawn/dist/images/logo-inverted.png" class="img-fluid">
+        <img src="/app/themes/thebluedawn/dist/images/logo-inverted.png" class="img-fluid" alt="The Blue Dawn logo">
       </div>
     </div>
 
