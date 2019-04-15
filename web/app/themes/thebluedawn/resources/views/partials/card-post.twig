@@ -1,0 +1,18 @@
+<div class="col-md-4">
+  <div class="Card">
+    <div class="card-img-top">
+      <img class="img-fluid" src="{{ item.thumbnail.src }}" alt="{{ item.thumbnail.alt}}">
+    </div>
+    <div class="card-body pt-1">
+      <h5 class="card-title pt-0 text-center mx-auto">{{ item.title }}</h5>
+      <p class="card-text">
+        {{ item.excerpt }}
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group w-100">
+          <a href="{{ item.cta.href }}" class="btn btn-block btn-secondary text-white">{{ item.cta.text }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

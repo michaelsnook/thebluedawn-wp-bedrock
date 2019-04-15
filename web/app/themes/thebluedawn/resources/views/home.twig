@@ -25,68 +25,17 @@
     <div class="fb-video" data-href="https://www.facebook.com/dialoguebybuzzfeed/videos/167740320838536/" data-width="600" data-show-text="false"><blockquote cite="https://developers.facebook.com/dialoguebybuzzfeed/videos/167740320838536/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/dialoguebybuzzfeed/videos/167740320838536/">How Casteism Leads To Severe Mental Health Problems</a><p>One cannot and should not talk about mental health in isolation. We have to look at the psychosocial aspects, that is, caste and class dynamics of it.  Please reach out to Blue Dawn, a care group for members of the community, if you want to talk, share, or even seek help. Contact: thebluedawn56&#064;gmail.com</p>Posted by <a href="https://www.facebook.com/dialoguebybuzzfeed/">Dialogue</a> on Monday, October 29, 2018</blockquote></div>
   </section>
 
-  <section class="py-5">
+  <section class="py-4">
     <h2>What We Do</h2>
     <div class="row">
-      <div class="col-md-4">
-        <div class="Card">
-          <div class="Card-img-top">
-            <img class="img-fluid" src="//thebluedawn.org/app/uploads/2019/04/IMG1_page-0001-1.jpg" alt="Painting of two trees">
-            <p>Matching clients with counselors</p>
-          </div>
-          <div class="card-body">
-            <p class="card-text">
-              Blue Dawn facilitates anti-caste, queer-friendly, disabled-friendly mental health care services to Bahujans. If you are a Bahujan and seeking support, please fill the Google Form to get in touch with us.
-            </p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a href="/speak-to-a-counselor/" class="btn btn-sm btn-outline-secondary">Get started</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="Card">
-          <div class="Card-img-top">
-            <img class="img-fluid" src="//thebluedawn.org/app/uploads/2019/04/IMG_page-0001-1.jpg" alt="Painting of birds sitting in a tree that grew out from a cage">
-            <p>Network of Bahujan-friendly counselors</p>
-          </div>
-          <div class="card-body">
-            <p class="card-text">
-              If you are a counselor or psychiatrist who understands structural oppression, especially caste oppression, and are ready to offer pro bono or affordable services, please fill the Google Form to get in touch with us.
-            </p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a href="/counselors-network/" class="btn btn-sm btn-outline-secondary">Get involved</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="Card">
-          <div class="Card-img-top">
-            <img class="img-fluid" src="//thebluedawn.org/app/uploads/2019/04/IMG_0001_page-0001-1.jpg" alt="Painting of two people helping each other climb a mountain">
-            <p>Sponsor clients in need</p>
-          </div>
-          <div class="card-body">
-            <p class="card-text">
-              If you are neither a counselor nor a patient but want to make mental health care accessible to all, you can sponsor therapy sessions for clients in need. Please fill the Google Form to get in touch with us.
-            </p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a href="/sponsor-sessions/" class="btn btn-sm btn-outline-secondary">Get in touch</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% for item in what_we_do %}
+        {% include 'partials/post-card.twig' %}
+      {% endfor %}
     </div>
 
   </section>
 
-  <section class="py-5">
+  <section class="py-4">
     <div class="container p-4 p-lg-5 bg-white rounded shadow-sm">
       <h2 class="border-bottom border-gray pb-2 mb-0">Events and Workshops</h2>
 
