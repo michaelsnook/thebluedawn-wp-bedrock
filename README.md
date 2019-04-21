@@ -31,6 +31,7 @@ A wordpress site and theme built on Roots.io's Bedrock and Sage.
 4. Add theme(s) in `web/app/themes/` as you would for a normal WordPress site
 5. Set the document root on your webserver to Bedrock's `web` folder: `/path/to/site/web/`
   * For local development, you can cd into the `web` folder and use the built-in PHP development server: `php -S localhost:8000`
+  * And then if you're working on front-end things you may want to cd into the theme directory (`app/themes/thebluedawn`) and run the Yarn development server with `yarn start`
 6. Access WordPress admin at `https://example.com/wp/wp-admin/`
 
 ## Post-install Setup
@@ -38,9 +39,9 @@ A wordpress site and theme built on Roots.io's Bedrock and Sage.
 1. Go to `Appearance > Menus` and create the primary menu. Populate it with: Blog, Seek Counseling, Counselors Network, Sponsor Sessions, Volunteer.
 1. Create another menu, the Social Media Menu, with links to Facebook, Twitter, Instagram, Medium, other properties.
 1. Create a footer in `Appearance > Widgets`, like this: 
-  <img src="./docs/wp-widget-footer-setup-result.png" style="max-width: 600px;">
-  It should look like this: 
   <img src="./docs/wp-widget-footer-setup-admin.png" style="max-width: 600px;">
+  It should look like this: 
+  <img src="./docs/wp-widget-footer-setup-result.png" style="max-width: 600px;">
 
 ## Direction
 
