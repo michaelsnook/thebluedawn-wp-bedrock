@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: roots/wordpress
+    versions:
+    - "5.6"
+    - 5.6.1
+    - 5.6.2
+    - "5.7"
